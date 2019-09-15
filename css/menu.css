@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0; 
+  box-sizing: border-box; 
+}
+
+body{
+    font-display: arial, Sans-Serif, Helvetica;
+    background: #e8e8e8;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.menu li{
+  display: inline-block;   //asi se muestran al lado del otro
+    text-align: center;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding:20px;
+}
+.menu li a:hover {
+    background: #ef8354;
+}
+.formulario{
+    background-color: white;
+    width: 500px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.formulario input{
+    display: block;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid #226fc1;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario textarea:focus{
+    border: 2px solid #4fb560;
+
+}
+.formulario textarea{
+    min-height: 120px;
+    max-height: 380px;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.formulario input[type="submit"]{
+    width: 200px;
+    margin: 0 auto;
+    background: none;
+    border: 1px solid #4fb560;
+    color:#4fb560;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.formulario input[type="submit"]:hover{
+    background: #4fb568;
+    color: #fff;
+}
